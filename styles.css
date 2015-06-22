@@ -37,12 +37,17 @@ body /deep/ .user-detail {
   padding-bottom: 10px;
 }
 body /deep/ core-toolbar.header-toolbar,
+body /deep/ core-toolbar.search-toolbar,
 body /deep/ detail-screen::shadow #toolbar,
 body /deep/ sync-screen::shadow #toolbar,
 body /deep/ force-paper-input::shadow .focused-underline,
 body /deep/ force-paper-input::shadow .cursor {
-    background-color: #f40009;
+    background-color: #FB6622;
 }
 body /deep/ force-paper-input[focused]::shadow .floated-label {
     color: #f40009;
+}
+
+body /deep/ .toolbar-brand {
+    height: 70px;
 }
